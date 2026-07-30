@@ -8,6 +8,6 @@ export default defineConfig({
     video: 'retain-on-failure'
   },
   retries: 0,
-  reporter: [['dot'],['json', {outputFile : "jsonReports/jsonReport.json"} ], ['html', {open: 'never'}]]
+  reporter: [['dot'],['json', {outputFile : "jsonReports/jsonReport.json"} ], ['html', {open: 'never'}], ['github']]
 
 });
