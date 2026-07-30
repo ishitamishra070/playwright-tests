@@ -2,7 +2,7 @@ import { chromium, test } from '@playwright/test';
 
 test('Login test demo', async () => {
   const browser = await chromium.launch({
-    headless: false,
+    headless: true,
   });
 
   const context = await browser.newContext();
